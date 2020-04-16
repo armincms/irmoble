@@ -1,0 +1,31 @@
+{
+    "name": "armincms/irmoble",
+    "description": "A Laravel Nova tool.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0", 
+        "armincms/launcher": "~0.1",
+        "armincms/koomeh": "~0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Armincms\\Irmoble\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Armincms\\Irmoble\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
