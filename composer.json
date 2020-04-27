@@ -8,6 +8,8 @@
     "license": "MIT",
     "require": {
         "php": ">=7.1.0", 
+        "armincms/many-to-many": "~0.1",
+        "zareismail/nova-wizard": "*",
         "armincms/launcher": "~0.1",
         "armincms/koomeh": "~0.1"
     },
