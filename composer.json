@@ -8,10 +8,12 @@
     "license": "MIT",
     "require": {
         "php": ">=7.1.0", 
+        "manmohanjit/nova-belongs-to-dependency": "~1.1",
+        "owenmelbz/nova-radio-field" : "~0.0",
         "armincms/many-to-many": "~0.1",
         "zareismail/nova-wizard": "*",
         "armincms/launcher": "~0.1",
-        "armincms/koomeh": "~0.1"
+        "armincms/koomeh": "~0.2"
     },
     "autoload": {
         "psr-4": {
