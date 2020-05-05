@@ -118,7 +118,7 @@ class Residence extends Resource implements Wizard
             })->asHtml(),      
 
             $this
-                ->imageField() 
+                ->imageField('Gallery', 'gallery') 
                 ->stacked()
                 ->customPropertiesFields([
                     $this->toggle(__("Master"), "master"),
